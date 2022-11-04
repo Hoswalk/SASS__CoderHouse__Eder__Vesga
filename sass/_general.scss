@@ -1,0 +1,54 @@
+$backgroundcolor2: rgb(33,110,150);
+$backgroundcolor3: linear-gradient(90deg, rgba(33,110,150,1) 0%, rgba(183,205,210,1) 50%, rgba(33,110,150,1) 100%);
+
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+}
+
+.top-index{
+    background: $backgroundcolor2 ;
+    background: $backgroundcolor3 ;
+}
+
+.mid__bar{
+    bottom: 8px;
+    background: $backgroundcolor2;
+    background: $backgroundcolor3;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    background: $backgroundcolor2;
+    background: $backgroundcolor3;
+   
+    &__socials{
+        h4{
+            font-size: x-large;
+            text-align: center;
+            color: #FFF;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        i{
+            font-size: x-large;
+            text-align: center;
+            padding: 5px;
+            color: #FFF;
+        }
+
+        i:hover{
+            transform: scale(1.5);
+            transition: all 0.50s ease;
+        }
+    }
+}

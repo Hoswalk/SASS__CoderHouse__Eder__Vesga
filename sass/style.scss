@@ -1,0 +1,40 @@
+@use 'general';
+@use 'mid__index-textimg';
+@use 'cards';
+@use 'mixinsfunc';
+@use 'form';
+
+$backgroundcolor1: linear-gradient(to bottom, #072b44, #153851, #22465d, #30546a, #3d6377);
+
+
+.col-md-6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    height: 740px;
+    color: #FFF;
+    background-image: $backgroundcolor1
+}
+
+// KNOW US PART
+
+.col-md-4{
+    text-align: center;
+    padding: 45px;
+    color: #FFF;
+    background-image: $backgroundcolor1;
+    @include mixinsfunc.bg-fixer;
+    
+    a{
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+

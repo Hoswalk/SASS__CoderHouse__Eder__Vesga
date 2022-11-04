@@ -1,0 +1,17 @@
+{
+  "name": "proyecto__sass",
+  "version": "1.0.0",
+  "description": "Este proyecto que incluye SASS junto con Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eder Vesga",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
+
+
